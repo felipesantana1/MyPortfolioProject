@@ -1,0 +1,70 @@
+.wrapper{
+
+    background-color: gray;
+    height: auto;
+    width: 1050px;
+}
+#header {
+
+    width: 1000px;
+    height: auto;
+}
+.boxes {
+
+    background-color: white;
+    width: 300px;
+    height: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+.pics {
+    width: 300px;
+}
+.topBox {
+    width:450px;
+    height:300px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+
+}
+#profilePic{
+    width: 450px;
+    height: 300px;
+    text-align: left;
+    
+}
+#aboutMe{
+
+    background-color: white;
+    height: 300px;
+    margin: 10px;
+}
+.smallPics{
+
+    width: 50px;
+}
+.bottomBox {
+
+    background-color: white;
+    vertical-align: bottom;
+    text-align: center;
+}
+#sameTag {
+
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 50px;
+
+}
+.topTop {
+
+    width: 1050px;
+    text-align: center;
+
+}
+.boxesTop{
+    width: 300px;
+    height: 40px;
+    background-color: #D9D1D1;
+}
