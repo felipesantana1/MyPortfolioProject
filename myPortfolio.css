@@ -1,8 +1,8 @@
 .wrapper{
 
-    background-color: gray;
+    background: linear-gradient(rgb(65, 11, 20), #9D031E, rgb(65, 11, 20));
     height: auto;
-    width: 1050px;
+    width: 930px;
 }
 #header {
 
@@ -12,16 +12,17 @@
 .boxes {
 
     background-color: white;
-    width: 300px;
+    width: 280px;
     height: 600px;
     display: inline-block;
     vertical-align: top;
+    margin-left: 20px;
 }
 .pics {
-    width: 300px;
+    width: 280px;
 }
 .topBox {
-    width:450px;
+    width:510px;
     height:300px;
     display: inline-block;
     vertical-align: top;
@@ -29,15 +30,18 @@
 
 }
 #profilePic{
-    width: 450px;
-    height: 300px;
-    text-align: left;
+
+    border: 6px solid #9a9797;
+    background-color: #cec2c2;
+    width: 350px;
+    height: 250px;
+    margin: 10px;
     
 }
 #aboutMe{
 
     background-color: white;
-    height: 300px;
+    height: 260px;
     margin: 10px;
 }
 .smallPics{
@@ -50,21 +54,79 @@
     vertical-align: bottom;
     text-align: center;
 }
-#sameTag {
+.sameTag {
 
+    height: 20px;
+    width: 520px;
     display: inline-block;
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 40px;
+
 
 }
-.topTop {
+#topTop {
 
     width: 1050px;
     text-align: center;
 
 }
 .boxesTop{
-    width: 300px;
+    width: auto;
     height: 40px;
-    background-color: #D9D1D1;
+    background-color: #615A5A;
+    display: flex;
+}
+.submitButton {
+
+    background-color: green;
+    border: 2px solid black;
+    display: flex;
+    margin-left: 90px;
+    margin-top: 30px
+
+}
+.writting {
+
+    font-size: 16px;
+}
+.textTop{
+
+    color: white;
+}
+#myName {
+    
+    font-size: 30px;
+    text-align: left;
+    
+}
+#whatIdo {
+    
+    font-size: 20px;
+    
+}
+.bottomHeads {
+
+    height: 80px;
+
+}
+#laModeText{
+
+    margin-bottom: 60px;
+
+}
+#famConText {
+
+    margin-bottom: 50px;
+
+}
+.twitLogo{
+
+    width: 20px;
+
+}
+.logoTxt {
+
+    display: inline;
+    font-size: 12px;    
+
 }
